@@ -22,11 +22,11 @@ ask.post('/', async (req, res) => {
     const response = await askGemini(translatedText);
     const translatedAns = await translateText(response, 'en', 'ha');
 
-    res.status(200).send(translatedAns);
+    res.status(200).json({"ans":translatedAns});
 
   } catch (error) {
     console.error(error);
-    res.status(500).send('Internal Server Error');
+    res.status(500).json({"error":'Internal Server Error'});
   }
 });
 
