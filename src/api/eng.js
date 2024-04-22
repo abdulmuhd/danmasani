@@ -10,7 +10,7 @@ const eng = Router();
 const gemini = new Gemini('AIzaSyBMCYspiseDy-M4hEMvznJGjLgLtxBD4jA')
 const chat = gemini.createChat();
 
-eng.post('/', (req, res) => {
+eng.post('/', async (req, res) => {
   const text = req.body.text;
 
   if (!text) {
