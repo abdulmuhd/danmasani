@@ -7,7 +7,7 @@ import fetch from 'node-fetch'; // Only import if needed for external API calls
 config()
 const eng = Router();
 
-const gemini = new Gemini(process.env.APIKEY)
+const gemini = new Gemini('AIzaSyBMCYspiseDy-M4hEMvznJGjLgLtxBD4jA')
 const chat = gemini.createChat();
 
 eng.post('/', (req, res) => {
