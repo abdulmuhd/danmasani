@@ -4,7 +4,7 @@ import { config } from 'dotenv'
 import Gemini from 'gemini-ai'
 import fetch from 'node-fetch'; // Only import if needed for external API calls
 
-config()
+
 const eng = Router();
 
 const gemini = new Gemini('AIzaSyBMCYspiseDy-M4hEMvznJGjLgLtxBD4jA')
