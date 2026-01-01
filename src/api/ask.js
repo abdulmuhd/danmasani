@@ -3,7 +3,7 @@ import { Router } from 'express';
 import { config } from 'dotenv'
 import Gemini from 'gemini-ai'
 import fetch from 'node-fetch'; // Only import if needed for external API calls
-
+//my personal repo
 config()
 const ask = Router();
 
