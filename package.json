@@ -1,6 +1,6 @@
 {
   "name": "danmasani",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "a hausa version of gemini ai",
   "main": "index.js",
   "type": "module",
