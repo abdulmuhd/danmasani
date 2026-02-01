@@ -1,7 +1,7 @@
 import express from 'express'
 import ask from './src/api/ask.js'
 import eng from './src/api/eng.js';
-import { config } from 'dotenv'
+import { config } from 'dotenv';
 import cors from 'cors';
 
 const PORT = process.env.PORT || 3000
